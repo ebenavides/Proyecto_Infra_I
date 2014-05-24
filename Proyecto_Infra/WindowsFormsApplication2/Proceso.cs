@@ -20,6 +20,15 @@ namespace WindowsFormsApplication2
             estadoProceso = estado;
 
         }
+        public void send(int idEmisor, int idDestino, String mensj)
+        {
+
+        }
+        public void receive(int idEmisor)
+        {
+
+        }
+        
 
 
 

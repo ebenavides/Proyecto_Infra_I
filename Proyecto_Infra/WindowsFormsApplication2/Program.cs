@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Threading;
+using System.Collections;
 
 namespace WindowsFormsApplication2
 {
       class Program
     {
-
+        ArrayList cola = new ArrayList(); 
         public static List<Object> Procesos = new List<Object>();
         static Config var = new Config();    
 
