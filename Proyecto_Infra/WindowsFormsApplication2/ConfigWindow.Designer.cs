@@ -52,9 +52,9 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -70,7 +70,7 @@
             this.Sincronizacion.Size = new System.Drawing.Size(109, 16);
             this.Sincronizacion.TabIndex = 0;
             this.Sincronizacion.Text = "Sincronización";
-             // 
+            // 
             // Direccionamiento
             // 
             this.Direccionamiento.AutoSize = true;
@@ -105,7 +105,6 @@
             this.comboContenido.Name = "comboContenido";
             this.comboContenido.Size = new System.Drawing.Size(121, 21);
             this.comboContenido.TabIndex = 5;
-            
             // 
             // comboSend
             // 
@@ -118,7 +117,6 @@
             this.comboSend.Name = "comboSend";
             this.comboSend.Size = new System.Drawing.Size(121, 21);
             this.comboSend.TabIndex = 6;
-           
             // 
             // comboRecive
             // 
@@ -132,7 +130,6 @@
             this.comboRecive.Name = "comboRecive";
             this.comboRecive.Size = new System.Drawing.Size(121, 21);
             this.comboRecive.TabIndex = 7;
-            
             // 
             // comboIndirecto
             // 
@@ -145,7 +142,6 @@
             this.comboIndirecto.Name = "comboIndirecto";
             this.comboIndirecto.Size = new System.Drawing.Size(121, 21);
             this.comboIndirecto.TabIndex = 8;
-            
             // 
             // labelSend
             // 
@@ -156,7 +152,6 @@
             this.labelSend.Size = new System.Drawing.Size(36, 15);
             this.labelSend.TabIndex = 9;
             this.labelSend.Text = "Send";
-            
             // 
             // labelRecive
             // 
@@ -197,7 +192,6 @@
             this.labelColas.Size = new System.Drawing.Size(99, 16);
             this.labelColas.TabIndex = 17;
             this.labelColas.Text = "ManejoColas";
-            
             // 
             // labelFormato
             // 
@@ -291,7 +285,7 @@
             this.buttonIniciar.TabIndex = 27;
             this.buttonIniciar.Text = "Iniciar";
             this.buttonIniciar.UseVisualStyleBackColor = true;
-            this.buttonIniciar.Click += new System.EventHandler(this.button1_Click);
+            this.buttonIniciar.Click += new System.EventHandler(this.buttonIniciar_Click);
             // 
             // groupBox1
             // 
@@ -337,6 +331,23 @@
             this.groupBox3.TabIndex = 30;
             this.groupBox3.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label1.Location = new System.Drawing.Point(8, 45);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(97, 15);
+            this.label1.TabIndex = 29;
+            this.label1.Text = "Largo de la Cola";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(116, 44);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(50, 20);
+            this.textBox1.TabIndex = 28;
+            // 
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.Transparent;
@@ -350,23 +361,6 @@
             this.groupBox4.Size = new System.Drawing.Size(426, 73);
             this.groupBox4.TabIndex = 31;
             this.groupBox4.TabStop = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(116, 44);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(50, 20);
-            this.textBox1.TabIndex = 28;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label1.Location = new System.Drawing.Point(8, 45);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 15);
-            this.label1.TabIndex = 29;
-            this.label1.Text = "Largo de la Cola";
             // 
             // ConfigWindow
             // 

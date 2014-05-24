@@ -12,10 +12,9 @@ namespace WindowsFormsApplication2
 {
     public partial class ConfigWindow: Form
     {
-        Config config;
-        public ConfigWindow(Config arg0)
+        
+        public ConfigWindow()
         {
-            config = arg0;
             InitializeComponent();
         }
 
@@ -100,9 +99,9 @@ namespace WindowsFormsApplication2
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonIniciar_Click(object sender, EventArgs e)
         {
-
+            Config.send = "Hola";
         }
     }
 }
