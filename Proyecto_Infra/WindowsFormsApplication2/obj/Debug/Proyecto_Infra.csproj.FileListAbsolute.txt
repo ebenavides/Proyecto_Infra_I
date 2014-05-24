@@ -8,3 +8,6 @@ C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFor
 C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.pdb
 C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.exe
 C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.pdb
+C:\Users\Esteban\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.exe.config
+C:\Users\Esteban\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.exe
+C:\Users\Esteban\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.pdb
