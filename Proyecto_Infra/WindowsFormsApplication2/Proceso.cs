@@ -12,18 +12,27 @@ namespace WindowsFormsApplication2
         int idProceso;
         String nombreProceso;
         String estadoProceso;
+        String tipoProceso;
 
-        public Proceso(int id, String nombre, String estado)
+        public Proceso(int id, String nombre, String estado, String tipo)
         {
             idProceso = id;
             nombreProceso = nombre;
             estadoProceso = estado;
+            tipoProceso = tipo;
 
         }
-        public void send(int idEmisor, int idDestino, String mensj)
+        public void sendExplicito(int idEmisor, int idDestino, String mensj)
+        {
+            
+
+        }
+        public void sendImplicito(int idBuzon, String mensj)
         {
 
+
         }
+
         public void receive(int idEmisor)
         {
 
