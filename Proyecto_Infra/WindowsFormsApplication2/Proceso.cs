@@ -8,6 +8,24 @@ namespace WindowsFormsApplication2
 {
     public class Proceso
     {
-        
+
+        int idProceso;
+        String nombreProceso;
+        String estadoProceso;
+
+        public Proceso(int id, String nombre, String estado)
+        {
+            idProceso = id;
+            nombreProceso = nombre;
+            estadoProceso = estado;
+
+        }
+
+
+
+
+
+ 
+
     }
 }
