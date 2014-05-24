@@ -1,0 +1,10 @@
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.exe.config
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra.csprojResolveAssemblyReference.cache
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.ConfigWindow.resources
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.ProcesoWindow.resources
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.Properties.Resources.resources
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra.csproj.GenerateResource.Cache
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.exe
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.pdb
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.exe
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.pdb
