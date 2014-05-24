@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Buzon.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="ConfigWindow.cs">
       <SubType>Form</SubType>

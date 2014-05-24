@@ -8,9 +8,9 @@ namespace WindowsFormsApplication2
 {
       class Program
     {
-        ArrayList cola = new ArrayList();
-        List<object> procesosSend;
-        List<object> procesosReceive;
+        static ArrayList cola = new ArrayList();
+        static List<object> procesosTotal;
+        
         public static List<Object> Procesos = new List<Object>();
         static Config var = new Config();    
 

@@ -22,10 +22,9 @@ namespace WindowsFormsApplication2
             tipoProceso = tipo;
 
         }
-        public void sendExplicito(int idEmisor, int idDestino, String mensj)
+        public void sendExplicito(int idDestino, String mensj)
         {
-            
-
+            cola.add(mensj);
         }
         public void sendImplicito(int idBuzon, String mensj)
         {
@@ -33,7 +32,22 @@ namespace WindowsFormsApplication2
 
         }
 
-        public void receive(int idEmisor)
+        public void sendEstatico(int idGrupo, String mensj)
+        {
+
+
+        }
+
+
+        public void receiveExplicito(int idEmisor)
+        {
+
+        }
+        public void receiveImplicito(int idBuzon)
+        {
+
+        }
+        public void receiveEstatico(int idEmisor)
         {
 
         }
