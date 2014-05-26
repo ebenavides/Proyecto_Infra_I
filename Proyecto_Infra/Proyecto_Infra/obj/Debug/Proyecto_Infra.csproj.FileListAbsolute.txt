@@ -1,0 +1,10 @@
+c:\users\esteban\documents\visual studio 2013\Projects\Proyecto_Infra\Proyecto_Infra\bin\Debug\Proyecto_Infra.exe.config
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\Proyecto_Infra\bin\Debug\Proyecto_Infra.exe
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\Proyecto_Infra\bin\Debug\Proyecto_Infra.pdb
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\Proyecto_Infra\obj\Debug\Proyecto_Infra.Properties.Resources.resources
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\Proyecto_Infra\obj\Debug\Proyecto_Infra.csproj.GenerateResource.Cache
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\Proyecto_Infra\obj\Debug\Proyecto_Infra.exe
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\Proyecto_Infra\obj\Debug\Proyecto_Infra.pdb
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\Proyecto_Infra\obj\Debug\Proyecto_Infra.csprojResolveAssemblyReference.cache
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\Proyecto_Infra\obj\Debug\Proyecto_Infra.ConfigWindow.resources
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\Proyecto_Infra\obj\Debug\Proyecto_Infra.ProcesoWindow.resources
