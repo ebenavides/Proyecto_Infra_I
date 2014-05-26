@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Collections;
 
 
 namespace Proyecto_Infra
@@ -12,7 +13,7 @@ namespace Proyecto_Infra
     {
 
         public static List<Proceso> ListaProcesos = new List<Proceso>();
-
+        public static ArrayList cola = new ArrayList(); 
         [STAThread]
         static void Main()
         {

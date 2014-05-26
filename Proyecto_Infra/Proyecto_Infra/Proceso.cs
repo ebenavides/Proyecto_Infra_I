@@ -20,29 +20,42 @@ namespace Proyecto_Infra
             tipoProceso = tipo;
 
         }
-        public void sendExplicito(int idDestino, String mensj)
+        public void sendExplicitoBlock(int idDestino, String mensj)
         {
+            Program.cola.Add(mensj);
+        }
+        public void sendExplicitoNoBlock(int idDestino, String mensj)
+        {
+            Program.cola.Add(mensj);
         }
 
-        public void sendImplicito(int idBuzon, String mensj)
+        public void sendImplicitoBlock(int idBuzon, String mensj)
         {
+            Program.cola.Add(mensj);
         }
 
+        public void sendImplicitoNoBlock(int idBuzon, String mensj)
+        {
+            Program.cola.Add(mensj);
+        }
         public void sendEstatico(int idGrupo, String mensj)
         {
+            Program.cola.Add(mensj);
         }
 
 
         public void receiveExplicito(int idEmisor)
         {
+
+
         }
-        
         public void receiveImplicito(int idBuzon)
         {
+
         }
-        
         public void receiveEstatico(int idEmisor)
         {
+
         }
     }
  }
