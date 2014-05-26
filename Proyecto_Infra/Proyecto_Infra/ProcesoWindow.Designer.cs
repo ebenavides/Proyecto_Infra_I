@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication2
+﻿namespace Proyecto_Infra
 {
     partial class ProcesoWindow
     {
@@ -28,23 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lb_process = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // listBox1
+            // lb_process
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(3, 5);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(216, 95);
-            this.listBox1.TabIndex = 0;
+            this.lb_process.FormattingEnabled = true;
+            this.lb_process.Location = new System.Drawing.Point(3, 4);
+            this.lb_process.Name = "lb_process";
+            this.lb_process.Size = new System.Drawing.Size(210, 82);
+            this.lb_process.TabIndex = 0;
+            
             // 
             // ProcesoWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(223, 107);
-            this.Controls.Add(this.listBox1);
+            this.ClientSize = new System.Drawing.Size(215, 88);
+            this.Controls.Add(this.lb_process);
             this.Name = "ProcesoWindow";
             this.Text = "<Default>";
             this.ResumeLayout(false);
@@ -53,7 +54,6 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
-
+        private System.Windows.Forms.ListBox lb_process;
     }
 }

@@ -8,11 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication2
+namespace Proyecto_Infra
 {
-    public partial class ConfigWindow: Form
+    public partial class ConfigWindow : Form
     {
-        
         public ConfigWindow()
         {
             InitializeComponent();
@@ -25,8 +24,8 @@ namespace WindowsFormsApplication2
             {
                 comboIndirecto.Enabled = false;
                 checkIndirecto.Enabled = false;
-                
-                
+
+
             }
             else
             {
@@ -78,7 +77,7 @@ namespace WindowsFormsApplication2
         {
             if (checkFIFO.Checked)
             {
-                
+
                 checkPrioridad.Enabled = false;
             }
             else
@@ -101,13 +100,8 @@ namespace WindowsFormsApplication2
 
         private void buttonIniciar_Click(object sender, EventArgs e)
         {
-            FormCrear frm = new FormCrear(); 
+            FormCrear frm = new FormCrear();
             frm.Show();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void textBoxLargoCola_KeyPress(object sender, KeyPressEventArgs e)
@@ -132,4 +126,4 @@ namespace WindowsFormsApplication2
         }
     }
 }
-
+    

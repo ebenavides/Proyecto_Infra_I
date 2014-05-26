@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Proyecto_Infra_App
+namespace Proyecto_Infra
 {
     class Buzon
     {
@@ -16,5 +16,6 @@ namespace Proyecto_Infra_App
             idProcesoDestino = idProcesoD;
         }
     }
+
 
 }

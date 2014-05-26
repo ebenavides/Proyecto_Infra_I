@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApplication2
+namespace Proyecto_Infra
 {
-    public class Proceso
+    class Proceso
     {
-
         int idProceso;
         String nombreProceso;
         String estadoProceso;
@@ -24,32 +23,28 @@ namespace WindowsFormsApplication2
         }
         public void sendExplicito(int idDestino, String mensj)
         {
-
         }
+
         public void sendImplicito(int idBuzon, String mensj)
         {
-
-
         }
 
         public void sendEstatico(int idGrupo, String mensj)
         {
-
-
         }
 
 
         public void receiveExplicito(int idEmisor)
         {
-
         }
+        
         public void receiveImplicito(int idBuzon)
         {
-
         }
+        
         public void receiveEstatico(int idEmisor)
         {
-
         }
     }
-}
+ }
+

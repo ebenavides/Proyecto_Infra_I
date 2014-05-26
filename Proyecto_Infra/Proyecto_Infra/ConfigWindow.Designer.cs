@@ -1,6 +1,5 @@
-﻿namespace WindowsFormsApplication2
+﻿namespace Proyecto_Infra
 {
- 
     partial class ConfigWindow
     {
         /// <summary>
@@ -53,7 +52,7 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBoxLargoCola = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -278,13 +277,14 @@
             // 
             // buttonIniciar
             // 
+            this.buttonIniciar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.buttonIniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.buttonIniciar.Location = new System.Drawing.Point(300, 38);
             this.buttonIniciar.Name = "buttonIniciar";
             this.buttonIniciar.Size = new System.Drawing.Size(91, 31);
             this.buttonIniciar.TabIndex = 27;
             this.buttonIniciar.Text = "Iniciar";
-            this.buttonIniciar.UseVisualStyleBackColor = true;
+            this.buttonIniciar.UseVisualStyleBackColor = false;
             this.buttonIniciar.Click += new System.EventHandler(this.buttonIniciar_Click);
             // 
             // groupBox1
@@ -320,7 +320,7 @@
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Controls.Add(this.textBoxLargoCola);
+            this.groupBox3.Controls.Add(this.textBox1);
             this.groupBox3.Controls.Add(this.buttonIniciar);
             this.groupBox3.Controls.Add(this.checkPrioridad);
             this.groupBox3.Controls.Add(this.checkFIFO);
@@ -341,14 +341,12 @@
             this.label1.TabIndex = 29;
             this.label1.Text = "Largo de la Cola";
             // 
-            // textBoxLargoCola
+            // textBox1
             // 
-            this.textBoxLargoCola.Location = new System.Drawing.Point(116, 44);
-            this.textBoxLargoCola.Name = "textBoxLargoCola";
-            this.textBoxLargoCola.Size = new System.Drawing.Size(50, 20);
-            this.textBoxLargoCola.TabIndex = 28;
-            this.textBoxLargoCola.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            this.textBoxLargoCola.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxLargoCola_KeyPress);
+            this.textBox1.Location = new System.Drawing.Point(116, 44);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(50, 20);
+            this.textBox1.TabIndex = 28;
             // 
             // groupBox4
             // 
@@ -369,8 +367,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.config_image;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BackgroundImage = global::Proyecto_Infra.Properties.Resources.img_config;
             this.ClientSize = new System.Drawing.Size(467, 419);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
@@ -417,7 +414,6 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBoxLargoCola;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
-

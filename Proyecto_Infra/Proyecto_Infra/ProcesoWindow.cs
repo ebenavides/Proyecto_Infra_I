@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication2
+namespace Proyecto_Infra
 {
     public partial class ProcesoWindow : Form
     {

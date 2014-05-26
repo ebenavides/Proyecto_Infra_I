@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication2
+﻿namespace Proyecto_Infra
 {
     partial class FormCrear
     {

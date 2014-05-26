@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApplication2
+namespace Proyecto_Infra
 {
-    public class Config
+    class Config
     {
         //Sincronizacion
-        public static string send = "default";
+        public static string send;
         public string receive;
 
         //Direccionamiento
