@@ -10,14 +10,13 @@ namespace Proyecto_Infra
     {
         public int idProceso;
         public String nombreProceso;
-        public String estadoProceso;
+        public String estadoProceso = "";
         public String tipoProceso;
 
-        public Proceso(int id, String nombre, String tipo, String estado = null)
+        public Proceso(int id, String nombre, String tipo)
         {
             idProceso = id;
             nombreProceso = nombre;
-            estadoProceso = estado;
             tipoProceso = tipo;
 
         }

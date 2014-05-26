@@ -20,17 +20,19 @@ namespace Proyecto_Infra
             Application.SetCompatibleTextRenderingDefault(false);
             ConfigWindow configw = new ConfigWindow();
             configw.ShowDialog();
-            Console.WriteLine("Configuracion Inicial:\nSend: "+Config.send+"\nReceive: "+Config.receive+"\n\nDireccionamiento: "+Config.direccionamiento+"\n\nMensaje\nTipo: "+Config.content+"\nLargo: "+Config.fmt_length+"\n\nCola\nFIFO: "+Config.fifo.ToString()+"\nPrioridad: "+Config.priority.ToString()+"\nLargo: "+Config.length.ToString());
+            Console.WriteLine("Configuracion Inicial:\nSend: " + Config.send + "\nReceive: " + Config.receive + "\n\nDireccionamiento: " + Config.direccionamiento + "\n\nMensaje\nTipo: " + Config.content + "\nLargo: " + Config.fmt_length + "\n\nCola\nFIFO: " + Config.fifo.ToString() + "\nPrioridad: " + Config.priority.ToString() + "\nLargo: " + Config.length.ToString());
             Console.WriteLine("\n\nProcesos Creados: \n");
             foreach (Proceso proceso in ListaProcesos)
             {
-                Console.WriteLine("Proceso: "+proceso.nombreProceso + "| IDProceso: "+proceso.idProceso+" | Tipo: "+proceso.tipoProceso);
+                Console.WriteLine("Proceso: " + proceso.nombreProceso + "| IDProceso: " + proceso.idProceso + " | Tipo: " + proceso.tipoProceso);
+
             }
-            while (true)
-            {
-                Console.ReadLine();
+                while (true)
+                {
+                    Console.ReadLine();
                 }
             }
         }
     }
+
 
