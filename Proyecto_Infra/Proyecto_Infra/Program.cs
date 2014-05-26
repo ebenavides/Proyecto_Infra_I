@@ -32,8 +32,16 @@ namespace Proyecto_Infra
                 {
                     Console.ReadLine();
                 }
-            }
-        }
+            }//Main
+
+        public static void Reader(string command){
+            
+                
+
+        }//Reader
+
+
     }
+}
 
 

@@ -25,6 +25,9 @@ namespace Proyecto_Infra
 
             MessageBox.Show("El Proceso: " + "'" + textBoxNombreProceso.Text + "'" + "\n" + " De tipo: " + comboTipoProceso.Text + "\n" + " Ha sido creado con el id: " + textBoxIdProceso.Text, "Proceso Creado!");
 
+            textBoxIdProceso.Text = "";
+            textBoxNombreProceso.Text = "";
+            comboTipoProceso.SelectedIndex = -1;
         }
 
         private void textBoxIdProceso_KeyPress(object sender, KeyPressEventArgs e)

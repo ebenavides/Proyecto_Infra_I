@@ -109,31 +109,39 @@ namespace Proyecto_Infra
 
         private void buttonIniciar_Click(object sender, EventArgs e)
         {
-           
-            if (comboSend.SelectedIndex == -1 || comboReceive.SelectedIndex == -1 || comboDirecto.SelectedIndex == -1 || comboIndirecto.SelectedIndex == -1 || comboContenido.SelectedIndex == -1)
-            {
-                MessageBox.Show("Debe llenar todos los espacios de los ComboBox");
-            }
           
+            if(comboSend.SelectedIndex == -1 || comboReceive.SelectedIndex == -1 || comboContenido.SelectedIndex == -1){
+                 MessageBox.Show("Debe llenar todos los espacios de los ComboBox");
+            }
+
             else
             {
                 Config.send = comboSend.SelectedItem.ToString();
                 Config.receive = comboReceive.SelectedItem.ToString();
-                if (checkDirecto.Checked)
+                if ((checkDirecto.Checked && comboDirecto.SelectedIndex != -1)||(checkIndirecto.Checked && comboIndirecto.SelectedIndex != -1))
                 {
-                    Config.direccionamiento = comboDirecto.SelectedItem.ToString();
+                    if (checkDirecto.Checked)
+                    {
+                        Config.direccionamiento = comboDirecto.SelectedItem.ToString();
+                    }
+
+                    else
+                    {
+                        Config.direccionamiento = comboIndirecto.SelectedItem.ToString();
+                    }
+
+                    Config.content = comboContenido.SelectedItem.ToString();
+                    Config.length = int.Parse(textBox1.Text);
+                    FormCrear frm = new FormCrear();
+                    frm.Show();
                 }
 
-                if (checkIndirecto.Checked)
+                else
                 {
-                    Config.direccionamiento = comboIndirecto.SelectedItem.ToString();
+                    MessageBox.Show("Debe llenar todos los espacios de los ComboBox");
                 }
 
-
-                Config.content = comboContenido.SelectedItem.ToString();
-                Config.length = int.Parse(textBox1.Text);
-                FormCrear frm = new FormCrear();
-                frm.Show();
+               
             }
             
 
