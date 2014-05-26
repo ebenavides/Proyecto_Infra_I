@@ -72,6 +72,11 @@ namespace Proyecto_Infra
             }
            
         }
+
+        private void textBoxNombreProceso_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

@@ -67,6 +67,12 @@
     <Compile Include="FormCrear.Designer.cs">
       <DependentUpon>FormCrear.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGrupo.Designer.cs">
+      <DependentUpon>FormGrupo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Proceso.cs" />
     <Compile Include="ProcesoWindow.cs">
       <SubType>Form</SubType>
@@ -84,6 +90,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCrear.resx">
       <DependentUpon>FormCrear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGrupo.resx">
+      <DependentUpon>FormGrupo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProcesoWindow.resx">
       <DependentUpon>ProcesoWindow.cs</DependentUpon>

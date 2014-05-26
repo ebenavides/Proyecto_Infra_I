@@ -79,6 +79,7 @@
             this.textBoxNombreProceso.Name = "textBoxNombreProceso";
             this.textBoxNombreProceso.Size = new System.Drawing.Size(100, 20);
             this.textBoxNombreProceso.TabIndex = 7;
+            this.textBoxNombreProceso.TextChanged += new System.EventHandler(this.textBoxNombreProceso_TextChanged);
             this.textBoxNombreProceso.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxNombreProceso_KeyPress);
             // 
             // textBoxIdProceso
