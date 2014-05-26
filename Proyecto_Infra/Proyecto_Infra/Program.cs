@@ -52,9 +52,10 @@ namespace Proyecto_Infra
                 foreach(string arg in command_args){
                     Console.WriteLine(arg);
                 }
-                /*int idemisor = int.Parse(command_args[0]);
+                int idemisor = int.Parse(command_args[0]);
                 int idreceptor = int.Parse(command_args[1]);
-                string mensaje = command_args[2];*/
+                string mensaje = command_args[2];
+
 
 
                 
