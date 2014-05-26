@@ -40,27 +40,36 @@
             // labelNombre
             // 
             this.labelNombre.AutoSize = true;
-            this.labelNombre.Location = new System.Drawing.Point(24, 19);
+            this.labelNombre.BackColor = System.Drawing.Color.Transparent;
+            this.labelNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNombre.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.labelNombre.Location = new System.Drawing.Point(1, 19);
             this.labelNombre.Name = "labelNombre";
-            this.labelNombre.Size = new System.Drawing.Size(106, 13);
+            this.labelNombre.Size = new System.Drawing.Size(142, 15);
             this.labelNombre.TabIndex = 0;
             this.labelNombre.Text = "Nombre del Proceso:";
             // 
             // labelIdProceso
             // 
             this.labelIdProceso.AutoSize = true;
-            this.labelIdProceso.Location = new System.Drawing.Point(27, 92);
+            this.labelIdProceso.BackColor = System.Drawing.Color.Transparent;
+            this.labelIdProceso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.labelIdProceso.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.labelIdProceso.Location = new System.Drawing.Point(40, 85);
             this.labelIdProceso.Name = "labelIdProceso";
-            this.labelIdProceso.Size = new System.Drawing.Size(78, 13);
+            this.labelIdProceso.Size = new System.Drawing.Size(103, 15);
             this.labelIdProceso.TabIndex = 1;
             this.labelIdProceso.Text = "Id del Proceso:";
             // 
             // labelTipoProceso
             // 
             this.labelTipoProceso.AutoSize = true;
-            this.labelTipoProceso.Location = new System.Drawing.Point(24, 155);
+            this.labelTipoProceso.BackColor = System.Drawing.Color.Transparent;
+            this.labelTipoProceso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.labelTipoProceso.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.labelTipoProceso.Location = new System.Drawing.Point(28, 155);
             this.labelTipoProceso.Name = "labelTipoProceso";
-            this.labelTipoProceso.Size = new System.Drawing.Size(88, 13);
+            this.labelTipoProceso.Size = new System.Drawing.Size(115, 15);
             this.labelTipoProceso.TabIndex = 2;
             this.labelTipoProceso.Text = "Tipo de Proceso:";
             // 
@@ -94,9 +103,10 @@
             // 
             // buttonCrearProceso
             // 
-            this.buttonCrearProceso.Location = new System.Drawing.Point(90, 216);
+            this.buttonCrearProceso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCrearProceso.Location = new System.Drawing.Point(86, 218);
             this.buttonCrearProceso.Name = "buttonCrearProceso";
-            this.buttonCrearProceso.Size = new System.Drawing.Size(99, 23);
+            this.buttonCrearProceso.Size = new System.Drawing.Size(105, 31);
             this.buttonCrearProceso.TabIndex = 6;
             this.buttonCrearProceso.Text = "Crear Proceso";
             this.buttonCrearProceso.UseVisualStyleBackColor = true;
@@ -105,6 +115,7 @@
             // FormCrear
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.BackgroundImage = global::Proyecto_Infra.Properties.Resources.img_config;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.buttonCrearProceso);
             this.Controls.Add(this.comboTipoProceso);
