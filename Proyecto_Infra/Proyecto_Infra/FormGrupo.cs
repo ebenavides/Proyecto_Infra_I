@@ -87,8 +87,37 @@ namespace Proyecto_Infra
 
         private void buttonCrearProceso_Click(object sender, EventArgs e)
         {
-            FormGrupo frm = new FormGrupo();
-            frm.Close(); 
+            if (textBoxNombreProcesoGrupo.Text == "")
+            {
+                MessageBox.Show("Ingrese un nombre al proceso!");
+            }
+            if (textBoxIdProcesoGrupo.Text == "")
+            {
+                MessageBox.Show("Ingrese un id al grupo!");
+            }
+            if (comboGrupo.SelectedIndex == -1)
+            {
+                MessageBox.Show("Seleccione un grupo en el comboBox");
+            }
+            else
+            {
+                MessageBox.Show("Nombre: "+textBoxNombreProcesoGrupo.Text+"\n"+"ID: "+textBoxIdProcesoGrupo.Text+"\n"+"Grupo: "+comboGrupo.SelectedItem,"Proceso");
+                this.Close();
+            }
+        }
+
+        private void buttonCrearGrupo_Click(object sender, EventArgs e)
+        {
+           
+            comboGrupo.Items.Add(textBoxNombreGrupo.Text);
+            MessageBox.Show("se ingresó el grupo: "+textBoxNombreGrupo.Text, "Grupo Creado!");
+            textBoxNombreGrupo.Text = "";
+
+        }
+
+        private void comboGrupo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
     }

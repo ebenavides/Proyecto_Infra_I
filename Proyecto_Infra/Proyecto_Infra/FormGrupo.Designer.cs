@@ -32,13 +32,14 @@
             this.textBoxNombreGrupo = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.comboGrupo = new System.Windows.Forms.ComboBox();
             this.buttonCrearProceso = new System.Windows.Forms.Button();
             this.textBoxIdProcesoGrupo = new System.Windows.Forms.TextBox();
             this.textBoxNombreProcesoGrupo = new System.Windows.Forms.TextBox();
             this.labelTipoProceso = new System.Windows.Forms.Label();
             this.labelIdProceso = new System.Windows.Forms.Label();
             this.labelNombre = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.buttonCrearGrupo = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -62,6 +63,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.buttonCrearGrupo);
             this.groupBox1.Controls.Add(this.textBoxNombreGrupo);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(12, 9);
@@ -72,7 +74,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.comboBox1);
+            this.groupBox2.Controls.Add(this.comboGrupo);
             this.groupBox2.Controls.Add(this.buttonCrearProceso);
             this.groupBox2.Controls.Add(this.textBoxIdProcesoGrupo);
             this.groupBox2.Controls.Add(this.textBoxNombreProcesoGrupo);
@@ -84,6 +86,16 @@
             this.groupBox2.Size = new System.Drawing.Size(253, 239);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
+            // 
+            // comboGrupo
+            // 
+            this.comboGrupo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboGrupo.FormattingEnabled = true;
+            this.comboGrupo.Location = new System.Drawing.Point(149, 150);
+            this.comboGrupo.Name = "comboGrupo";
+            this.comboGrupo.Size = new System.Drawing.Size(104, 21);
+            this.comboGrupo.TabIndex = 15;
+            this.comboGrupo.SelectedIndexChanged += new System.EventHandler(this.comboGrupo_SelectedIndexChanged);
             // 
             // buttonCrearProceso
             // 
@@ -149,13 +161,15 @@
             this.labelNombre.TabIndex = 8;
             this.labelNombre.Text = "Nombre del Proceso:";
             // 
-            // comboBox1
+            // buttonCrearGrupo
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(149, 150);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(104, 21);
-            this.comboBox1.TabIndex = 15;
+            this.buttonCrearGrupo.Location = new System.Drawing.Point(127, 68);
+            this.buttonCrearGrupo.Name = "buttonCrearGrupo";
+            this.buttonCrearGrupo.Size = new System.Drawing.Size(75, 23);
+            this.buttonCrearGrupo.TabIndex = 2;
+            this.buttonCrearGrupo.Text = "Crear";
+            this.buttonCrearGrupo.UseVisualStyleBackColor = true;
+            this.buttonCrearGrupo.Click += new System.EventHandler(this.buttonCrearGrupo_Click);
             // 
             // FormGrupo
             // 
@@ -165,6 +179,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "FormGrupo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Creacion de Grupo";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -186,6 +201,7 @@
         private System.Windows.Forms.Label labelTipoProceso;
         private System.Windows.Forms.Label labelIdProceso;
         private System.Windows.Forms.Label labelNombre;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboGrupo;
+        private System.Windows.Forms.Button buttonCrearGrupo;
     }
 }

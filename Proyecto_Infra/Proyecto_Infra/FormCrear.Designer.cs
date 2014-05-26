@@ -126,6 +126,7 @@
             this.Controls.Add(this.labelIdProceso);
             this.Controls.Add(this.labelNombre);
             this.Name = "FormCrear";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crear Proceso";
             this.ResumeLayout(false);
             this.PerformLayout();

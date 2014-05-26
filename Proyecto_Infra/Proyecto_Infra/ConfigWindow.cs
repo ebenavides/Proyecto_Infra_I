@@ -119,7 +119,7 @@ namespace Proyecto_Infra
                 Config.send = comboSend.SelectedItem.ToString();
                 Config.receive = comboReceive.SelectedItem.ToString();
                 Config.content = comboContenido.SelectedItem.ToString();
-                Config.length = int.Parse(textBox1.Text);
+                Config.length = int.Parse(textBoxLargoCola.Text);
                 if ((checkDirecto.Checked && comboDirecto.SelectedIndex != -1)||(checkIndirecto.Checked && comboIndirecto.SelectedIndex != -1))
                 {
                     if (checkDirecto.Checked)
@@ -150,7 +150,14 @@ namespace Proyecto_Infra
 
         }
 
-        private void textBoxLargoCola_KeyPress(object sender, KeyPressEventArgs e)
+
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (Char.IsDigit(e.KeyChar))
             {

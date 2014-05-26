@@ -52,8 +52,8 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.textBoxLargoCola = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -320,7 +320,7 @@
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Controls.Add(this.textBox1);
+            this.groupBox3.Controls.Add(this.textBoxLargoCola);
             this.groupBox3.Controls.Add(this.buttonIniciar);
             this.groupBox3.Controls.Add(this.checkPrioridad);
             this.groupBox3.Controls.Add(this.checkFIFO);
@@ -341,13 +341,6 @@
             this.label1.TabIndex = 29;
             this.label1.Text = "Largo de la Cola";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(116, 44);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(50, 20);
-            this.textBox1.TabIndex = 28;
-            // 
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.Transparent;
@@ -362,6 +355,15 @@
             this.groupBox4.TabIndex = 31;
             this.groupBox4.TabStop = false;
             // 
+            // textBoxLargoCola
+            // 
+            this.textBoxLargoCola.Location = new System.Drawing.Point(116, 44);
+            this.textBoxLargoCola.Name = "textBoxLargoCola";
+            this.textBoxLargoCola.Size = new System.Drawing.Size(50, 20);
+            this.textBoxLargoCola.TabIndex = 28;
+            this.textBoxLargoCola.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBoxLargoCola.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+            // 
             // ConfigWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -374,6 +376,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "ConfigWindow";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Infraestructura Tecnológica";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -414,6 +417,6 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxLargoCola;
     }
 }
