@@ -109,24 +109,32 @@ namespace Proyecto_Infra
 
         private void buttonIniciar_Click(object sender, EventArgs e)
         {
-            Config.send = comboSend.SelectedItem.ToString();
-            Config.receive = comboReceive.SelectedItem.ToString();
-            if (checkDirecto.Checked)
+           
+            if (comboSend.SelectedIndex == -1 || comboReceive.SelectedIndex == -1 || comboDirecto.SelectedIndex == -1 || comboIndirecto.SelectedIndex == -1 || comboContenido.SelectedIndex == -1)
             {
-                Config.direccionamiento = comboDirecto.SelectedItem.ToString(); 
+                MessageBox.Show("Debe llenar todos los espacios de los ComboBox");
             }
-
-            if (checkIndirecto.Checked)
+          
+            else
             {
-                Config.direccionamiento = comboIndirecto.SelectedItem.ToString(); 
-            }                  
+                Config.send = comboSend.SelectedItem.ToString();
+                Config.receive = comboReceive.SelectedItem.ToString();
+                if (checkDirecto.Checked)
+                {
+                    Config.direccionamiento = comboDirecto.SelectedItem.ToString();
+                }
+
+                if (checkIndirecto.Checked)
+                {
+                    Config.direccionamiento = comboIndirecto.SelectedItem.ToString();
+                }
 
 
-            Config.content = comboContenido.SelectedItem.ToString();
-            Config.length = int.Parse(textBox1.Text);
-            FormCrear frm = new FormCrear();
-            frm.Show();
-
+                Config.content = comboContenido.SelectedItem.ToString();
+                Config.length = int.Parse(textBox1.Text);
+                FormCrear frm = new FormCrear();
+                frm.Show();
+            }
             
 
         }

@@ -82,7 +82,6 @@
             // 
             // comboDirecto
             // 
-            this.comboDirecto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboDirecto.FormattingEnabled = true;
             this.comboDirecto.Items.AddRange(new object[] {
             "Explicito",
@@ -91,10 +90,10 @@
             this.comboDirecto.Name = "comboDirecto";
             this.comboDirecto.Size = new System.Drawing.Size(121, 21);
             this.comboDirecto.TabIndex = 4;
+            this.comboDirecto.Text = "Seleccione";
             // 
             // comboContenido
             // 
-            this.comboContenido.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboContenido.FormattingEnabled = true;
             this.comboContenido.Items.AddRange(new object[] {
             "Video",
@@ -104,10 +103,10 @@
             this.comboContenido.Name = "comboContenido";
             this.comboContenido.Size = new System.Drawing.Size(121, 21);
             this.comboContenido.TabIndex = 5;
+            this.comboContenido.Text = "Seleccione";
             // 
             // comboSend
             // 
-            this.comboSend.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboSend.FormattingEnabled = true;
             this.comboSend.Items.AddRange(new object[] {
             "Blocking",
@@ -116,10 +115,10 @@
             this.comboSend.Name = "comboSend";
             this.comboSend.Size = new System.Drawing.Size(121, 21);
             this.comboSend.TabIndex = 6;
+            this.comboSend.Text = "Seleccione";
             // 
             // comboReceive
             // 
-            this.comboReceive.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboReceive.FormattingEnabled = true;
             this.comboReceive.Items.AddRange(new object[] {
             "Blocking",
@@ -129,10 +128,10 @@
             this.comboReceive.Name = "comboReceive";
             this.comboReceive.Size = new System.Drawing.Size(121, 21);
             this.comboReceive.TabIndex = 7;
+            this.comboReceive.Text = "Seleccione";
             // 
             // comboIndirecto
             // 
-            this.comboIndirecto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboIndirecto.FormattingEnabled = true;
             this.comboIndirecto.Items.AddRange(new object[] {
             "Estatico",
@@ -141,6 +140,7 @@
             this.comboIndirecto.Name = "comboIndirecto";
             this.comboIndirecto.Size = new System.Drawing.Size(121, 21);
             this.comboIndirecto.TabIndex = 8;
+            this.comboIndirecto.Text = "Seleccione";
             // 
             // labelSend
             // 
@@ -347,6 +347,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(50, 20);
             this.textBox1.TabIndex = 28;
+            this.textBox1.Text = "    -----";
             // 
             // groupBox4
             // 
