@@ -10,21 +10,18 @@ namespace Proyecto_Infra
     {
         //Sincronizacion
         public static string send;
-        public string receive;
+        public static string receive;
 
         //Direccionamiento
-        public string dir_explicit;
-        public string dir_implicit;
-        public string dir_static;
-        public string dynamic;
+        public static string direccionamiento;
 
         //Formato
-        public string content;
-        public string fmt_length;
+        public static string content;
+        public static string fmt_length;
 
         //Cola
-        public string length;
-        public bool fifo;
-        public bool priority;
+        public static int length;
+        public static bool fifo;
+        public static bool priority;
     }
 }

@@ -33,7 +33,7 @@
             this.comboDirecto = new System.Windows.Forms.ComboBox();
             this.comboContenido = new System.Windows.Forms.ComboBox();
             this.comboSend = new System.Windows.Forms.ComboBox();
-            this.comboRecive = new System.Windows.Forms.ComboBox();
+            this.comboReceive = new System.Windows.Forms.ComboBox();
             this.comboIndirecto = new System.Windows.Forms.ComboBox();
             this.labelSend = new System.Windows.Forms.Label();
             this.labelRecive = new System.Windows.Forms.Label();
@@ -117,18 +117,18 @@
             this.comboSend.Size = new System.Drawing.Size(121, 21);
             this.comboSend.TabIndex = 6;
             // 
-            // comboRecive
+            // comboReceive
             // 
-            this.comboRecive.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboRecive.FormattingEnabled = true;
-            this.comboRecive.Items.AddRange(new object[] {
+            this.comboReceive.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboReceive.FormattingEnabled = true;
+            this.comboReceive.Items.AddRange(new object[] {
             "Blocking",
             "NonBlocking",
             "Prueba de llegada"});
-            this.comboRecive.Location = new System.Drawing.Point(260, 48);
-            this.comboRecive.Name = "comboRecive";
-            this.comboRecive.Size = new System.Drawing.Size(121, 21);
-            this.comboRecive.TabIndex = 7;
+            this.comboReceive.Location = new System.Drawing.Point(260, 48);
+            this.comboReceive.Name = "comboReceive";
+            this.comboReceive.Size = new System.Drawing.Size(121, 21);
+            this.comboReceive.TabIndex = 7;
             // 
             // comboIndirecto
             // 
@@ -353,7 +353,7 @@
             this.groupBox4.BackColor = System.Drawing.Color.Transparent;
             this.groupBox4.Controls.Add(this.labelRecive);
             this.groupBox4.Controls.Add(this.labelSend);
-            this.groupBox4.Controls.Add(this.comboRecive);
+            this.groupBox4.Controls.Add(this.comboReceive);
             this.groupBox4.Controls.Add(this.comboSend);
             this.groupBox4.Controls.Add(this.Sincronizacion);
             this.groupBox4.Location = new System.Drawing.Point(11, 13);
@@ -394,7 +394,7 @@
         private System.Windows.Forms.ComboBox comboDirecto;
         private System.Windows.Forms.ComboBox comboContenido;
         private System.Windows.Forms.ComboBox comboSend;
-        private System.Windows.Forms.ComboBox comboRecive;
+        private System.Windows.Forms.ComboBox comboReceive;
         private System.Windows.Forms.ComboBox comboIndirecto;
         private System.Windows.Forms.Label labelSend;
         private System.Windows.Forms.Label labelRecive;

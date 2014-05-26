@@ -73,6 +73,9 @@
     <EmbeddedResource Include="ConfigWindow.resx">
       <DependentUpon>ConfigWindow.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormCrear.resx">
+      <DependentUpon>FormCrear.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProcesoWindow.resx">
       <DependentUpon>ProcesoWindow.cs</DependentUpon>
     </EmbeddedResource>

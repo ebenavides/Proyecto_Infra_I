@@ -17,27 +17,13 @@ namespace Proyecto_Infra
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBoxIdProceso_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonCrearProceso_Click(object sender, EventArgs e)
         {
             MessageBox.Show("El Proceso: " + "'" + textBoxNombreProceso.Text + "'" + "\n" + " De tipo: " + comboTipoProceso.Text + "\n" + " Ha sido creado con el id: " + textBoxIdProceso.Text, "Proceso Creado!");
-       
-   
+
         }
 
-        private void textBoxNombreProceso_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
+
 
         private void textBoxIdProceso_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -80,11 +66,6 @@ namespace Proyecto_Infra
                 MessageBox.Show("Solo se aceptan carateres de tipo String","Aviso");
             }
            
-        }
-
-        private void comboTipoProceso_SelectedIndexChanged(object sender, EventArgs e)
-        {
-          
         }
     }
 }

@@ -45,7 +45,6 @@
             this.labelNombre.Size = new System.Drawing.Size(106, 13);
             this.labelNombre.TabIndex = 0;
             this.labelNombre.Text = "Nombre del Proceso:";
-            this.labelNombre.Click += new System.EventHandler(this.label1_Click);
             // 
             // labelIdProceso
             // 
@@ -70,8 +69,7 @@
             this.textBoxNombreProceso.Location = new System.Drawing.Point(149, 19);
             this.textBoxNombreProceso.Name = "textBoxNombreProceso";
             this.textBoxNombreProceso.Size = new System.Drawing.Size(100, 20);
-            this.textBoxNombreProceso.TabIndex = 3;
-            this.textBoxNombreProceso.TextChanged += new System.EventHandler(this.textBoxNombreProceso_TextChanged);
+            this.textBoxNombreProceso.TabIndex = 7;
             this.textBoxNombreProceso.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxNombreProceso_KeyPress);
             // 
             // textBoxIdProceso
@@ -80,7 +78,6 @@
             this.textBoxIdProceso.Name = "textBoxIdProceso";
             this.textBoxIdProceso.Size = new System.Drawing.Size(100, 20);
             this.textBoxIdProceso.TabIndex = 4;
-            this.textBoxIdProceso.TextChanged += new System.EventHandler(this.textBoxIdProceso_TextChanged);
             this.textBoxIdProceso.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxIdProceso_KeyPress);
             // 
             // comboTipoProceso
@@ -94,7 +91,6 @@
             this.comboTipoProceso.Name = "comboTipoProceso";
             this.comboTipoProceso.Size = new System.Drawing.Size(100, 21);
             this.comboTipoProceso.TabIndex = 5;
-            this.comboTipoProceso.SelectedIndexChanged += new System.EventHandler(this.comboTipoProceso_SelectedIndexChanged);
             // 
             // buttonCrearProceso
             // 

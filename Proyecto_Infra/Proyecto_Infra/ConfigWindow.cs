@@ -24,8 +24,7 @@ namespace Proyecto_Infra
             {
                 comboIndirecto.Enabled = false;
                 checkIndirecto.Enabled = false;
-
-
+                
             }
             else
             {
@@ -39,7 +38,7 @@ namespace Proyecto_Infra
             if (checkIndirecto.Checked)
             {
                 comboDirecto.Enabled = false;
-                checkDirecto.Enabled = false;
+                checkDirecto.Enabled = false; 
             }
             else
             {
@@ -53,6 +52,7 @@ namespace Proyecto_Infra
             if (checkFijo.Checked)
             {
                 checkVariable.Enabled = false;
+                Config.fmt_length = "fijo";
             }
             else
             {
@@ -65,6 +65,7 @@ namespace Proyecto_Infra
             if (checkVariable.Checked)
             {
                 checkFijo.Enabled = false;
+                Config.fmt_length = "var";
             }
             else
             {
@@ -79,10 +80,14 @@ namespace Proyecto_Infra
             {
 
                 checkPrioridad.Enabled = false;
+                Config.fifo = true;
+                Config.priority = false;
             }
             else
             {
                 checkPrioridad.Enabled = true;
+                Config.fifo = false;
+                Config.priority = true;
             }
         }
 
@@ -91,17 +96,39 @@ namespace Proyecto_Infra
             if (checkPrioridad.Checked)
             {
                 checkFIFO.Enabled = false;
+                Config.priority = true;
+                Config.fifo = false;
             }
             else
             {
                 checkFIFO.Enabled = true;
+                Config.priority = false;
+                Config.fifo = true;
             }
         }
 
         private void buttonIniciar_Click(object sender, EventArgs e)
         {
+            Config.send = comboSend.SelectedItem.ToString();
+            Config.receive = comboReceive.SelectedItem.ToString();
+            if (checkDirecto.Checked)
+            {
+                Config.direccionamiento = comboDirecto.SelectedItem.ToString(); 
+            }
+
+            if (checkIndirecto.Checked)
+            {
+                Config.direccionamiento = comboIndirecto.SelectedItem.ToString(); 
+            }                  
+
+
+            Config.content = comboContenido.SelectedItem.ToString();
+            Config.length = int.Parse(textBox1.Text);
             FormCrear frm = new FormCrear();
             frm.Show();
+
+            
+
         }
 
         private void textBoxLargoCola_KeyPress(object sender, KeyPressEventArgs e)
@@ -121,7 +148,7 @@ namespace Proyecto_Infra
             else
             {
                 e.Handled = true;
-                MessageBox.Show("Solo se aceptan numeros enteros!", "Aviso");
+                MessageBox.Show("¡Solo se aceptan numeros enteros!", "Aviso");
             }
         }
     }
