@@ -10,8 +10,8 @@ namespace Proyecto_Infra
     {
         public int idProceso;
         public String nombreProceso;
-        public String estadoProceso = "";
-        public String tipoProceso;
+        public String estadoProceso = ""; //block o no block
+        public String tipoProceso; //send o receive
 
         public Proceso(int id, String nombre, String tipo)
         {
@@ -20,13 +20,27 @@ namespace Proyecto_Infra
             tipoProceso = tipo;
 
         }
+
+        public void mandarACola(String mensj)
+        {
+            //si la cola no esta llena 
+            Program.cola.Add(mensj);
+            // y retorna recibido
+            //si no, retorna no recibido
+
+        }
+
         public void sendExplicitoBlock(int idDestino, String mensj)
         {
-            Program.cola.Add(mensj);
+            //se llama a mandaracola, si se obtiene recibido se cambia el estado del proceso a no block
+            // si es no recibido se queda blockeado hasta que alla campo en la cola
+
         }
         public void sendExplicitoNoBlock(int idDestino, String mensj)
         {
             Program.cola.Add(mensj);
+            // basta con agregar la cola, ya que al send no le importa si fue recibido o no
+
         }
 
         public void sendImplicitoBlock(int idBuzon, String mensj)
