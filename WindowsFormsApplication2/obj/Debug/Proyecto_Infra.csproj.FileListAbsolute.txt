@@ -1,0 +1,52 @@
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.exe.config
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra.csprojResolveAssemblyReference.cache
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.ConfigWindow.resources
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.ProcesoWindow.resources
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.Properties.Resources.resources
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra.csproj.GenerateResource.Cache
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.exe
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.pdb
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.exe
+C:\Users\Esteban\Documents\Visual Studio 2013\Projects\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.pdb
+<<<<<<< HEAD
+C:\Users\Tati\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.exe.config
+C:\Users\Tati\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.exe
+C:\Users\Tati\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.pdb
+C:\Users\Tati\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra.csprojResolveAssemblyReference.cache
+C:\Users\Tati\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.ConfigWindow.resources
+C:\Users\Tati\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.ProcesoWindow.resources
+C:\Users\Tati\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.Properties.Resources.resources
+C:\Users\Tati\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra.csproj.GenerateResource.Cache
+C:\Users\Tati\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.exe
+C:\Users\Tati\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.pdb
+=======
+C:\Users\Esteban\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.exe.config
+C:\Users\Esteban\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.exe
+C:\Users\Esteban\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.pdb
+>>>>>>> 362ca699f6decf954e7e624fd1fb654be087754e
+C:\Users\Esteban\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.exe
+C:\Users\Esteban\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.pdb
+C:\Users\Esteban\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra.csprojResolveAssemblyReference.cache
+C:\Users\Esteban\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.ConfigWindow.resources
+C:\Users\Esteban\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.ProcesoWindow.resources
+C:\Users\Esteban\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.Properties.Resources.resources
+C:\Users\Esteban\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra.csproj.GenerateResource.Cache
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.exe.config
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.exe
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.pdb
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.exe
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.pdb
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra.csprojResolveAssemblyReference.cache
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.ConfigWindow.resources
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.ProcesoWindow.resources
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.Properties.Resources.resources
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra.csproj.GenerateResource.Cache
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.FormCrear.resources
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.FormCrear.resources
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Vinicio\Desktop\Proyecto_Infra\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.exe.config
+C:\Users\Vinicio\Desktop\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.exe
+C:\Users\Vinicio\Desktop\Proyecto_Infra\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.pdb
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\WindowsFormsApplication2\bin\Debug\Proyecto_Infra_App.exe.config
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.exe
+C:\Users\Vinicio\Documents\GitHub\Proyecto_Infra_I\WindowsFormsApplication2\obj\Debug\Proyecto_Infra_App.pdb
