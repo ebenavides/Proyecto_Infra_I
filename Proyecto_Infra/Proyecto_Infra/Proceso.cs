@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Proyecto_Infra
 {
-    class Proceso
+    public class Proceso
     {
-        int idProceso;
-        String nombreProceso;
-        String estadoProceso;
-        String tipoProceso;
+        public int idProceso;
+        public String nombreProceso;
+        public String estadoProceso;
+        public String tipoProceso;
 
-        public Proceso(int id, String nombre, String estado, String tipo)
+        public Proceso(int id, String nombre, String tipo, String estado = null)
         {
             idProceso = id;
             nombreProceso = nombre;

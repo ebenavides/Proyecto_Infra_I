@@ -17,8 +17,11 @@ namespace Proyecto_Infra
             InitializeComponent();
         }
 
-        private void buttonCrearProceso_Click(object sender, EventArgs e)
+        public void buttonCrearProceso_Click(object sender, EventArgs e)
         {
+            Proceso proceso = new Proceso(int.Parse(textBoxIdProceso.Text), textBoxNombreProceso.Text, comboTipoProceso.SelectedValue.ToString());
+            Program.ListaProcesos.Add(proceso);
+
             MessageBox.Show("El Proceso: " + "'" + textBoxNombreProceso.Text + "'" + "\n" + " De tipo: " + comboTipoProceso.Text + "\n" + " Ha sido creado con el id: " + textBoxIdProceso.Text, "Proceso Creado!");
 
         }
