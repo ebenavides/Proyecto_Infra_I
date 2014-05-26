@@ -13,7 +13,9 @@ namespace Proyecto_Infra
     {
 
         public static List<Proceso> ListaProcesos = new List<Proceso>();
-        public static ArrayList cola = new ArrayList(); 
+        public static ArrayList cola = new ArrayList();
+        public static string line = "";
+        public static String[] command_args;
         [STAThread]
         static void Main()
         {
@@ -30,13 +32,22 @@ namespace Proyecto_Infra
             }
                 while (true)
                 {
-                    Console.ReadLine();
+                    line = Console.ReadLine();
+                    Reader(line);
                 }
             }//Main
 
         public static void Reader(string command){
-            
+
+            //verifica si es comando send
+            if(command.Contains("send")){
+                command = command.Replace("send(", "");
+                command = command.Replace(")", "");
+                command_args = command.Split(',');
+
                 
+            }
+
 
         }//Reader
 
