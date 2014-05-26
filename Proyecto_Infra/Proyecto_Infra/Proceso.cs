@@ -12,6 +12,7 @@ namespace Proyecto_Infra
         public String nombreProceso;
         public String estadoProceso = ""; //block o no block
         public String tipoProceso; //send o receive
+        public List<String> _log = new List<String>();
 
         public Proceso(int id, String nombre, String tipo)
         {
@@ -69,6 +70,15 @@ namespace Proyecto_Infra
         }
         public void receiveEstatico(int idEmisor)
         {
+
+        }
+
+
+        public void Mostrar()
+        {
+            ProcesoWindow process_w = new ProcesoWindow();
+            process_w.Text = nombreProceso;
+            process_w.lb_process.DataSource = _log;
 
         }
     }

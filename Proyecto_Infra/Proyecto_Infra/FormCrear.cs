@@ -21,8 +21,11 @@ namespace Proyecto_Infra
         {
 
             Proceso proceso = new Proceso(int.Parse(textBoxIdProceso.Text), textBoxNombreProceso.Text, comboTipoProceso.SelectedItem.ToString());
-            Program.ListaProcesos.Add(proceso);
 
+            if (proceso.tipoProceso == "Emisor") {Program.ListaEmisores.Add(proceso);}
+
+            else { Program.ListaReceptores.Add(proceso); }
+            
             MessageBox.Show("El Proceso: " + "'" + textBoxNombreProceso.Text + "'" + "\n" + " De tipo: " + comboTipoProceso.Text + "\n" + " Ha sido creado con el id: " + textBoxIdProceso.Text, "Proceso Creado!");
 
             textBoxIdProceso.Text = "";

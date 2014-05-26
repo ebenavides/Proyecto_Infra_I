@@ -16,5 +16,6 @@ namespace Proyecto_Infra
         {
             InitializeComponent();
         }
+
     }
 }

@@ -34,17 +34,16 @@
             // lb_process
             // 
             this.lb_process.FormattingEnabled = true;
-            this.lb_process.Location = new System.Drawing.Point(3, 4);
+            this.lb_process.Location = new System.Drawing.Point(2, 3);
             this.lb_process.Name = "lb_process";
-            this.lb_process.Size = new System.Drawing.Size(210, 82);
+            this.lb_process.Size = new System.Drawing.Size(194, 56);
             this.lb_process.TabIndex = 0;
-            
             // 
             // ProcesoWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(215, 88);
+            this.ClientSize = new System.Drawing.Size(196, 61);
             this.Controls.Add(this.lb_process);
             this.Name = "ProcesoWindow";
             this.Text = "<Default>";
@@ -54,6 +53,6 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox lb_process;
+        public System.Windows.Forms.ListBox lb_process;
     }
 }
