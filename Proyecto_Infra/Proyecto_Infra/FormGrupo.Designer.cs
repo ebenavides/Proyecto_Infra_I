@@ -31,7 +31,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxNombreGrupo = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonCrearGrupo = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.buttonCrearGrupoProceso = new System.Windows.Forms.Button();
             this.comboGrupo = new System.Windows.Forms.ComboBox();
             this.buttonCrearProceso = new System.Windows.Forms.Button();
             this.textBoxIdProcesoGrupo = new System.Windows.Forms.TextBox();
@@ -39,7 +41,6 @@
             this.labelTipoProceso = new System.Windows.Forms.Label();
             this.labelIdProceso = new System.Windows.Forms.Label();
             this.labelNombre = new System.Windows.Forms.Label();
-            this.buttonCrearGrupo = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -72,8 +73,19 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             // 
+            // buttonCrearGrupo
+            // 
+            this.buttonCrearGrupo.Location = new System.Drawing.Point(127, 68);
+            this.buttonCrearGrupo.Name = "buttonCrearGrupo";
+            this.buttonCrearGrupo.Size = new System.Drawing.Size(75, 23);
+            this.buttonCrearGrupo.TabIndex = 2;
+            this.buttonCrearGrupo.Text = "Crear";
+            this.buttonCrearGrupo.UseVisualStyleBackColor = true;
+            this.buttonCrearGrupo.Click += new System.EventHandler(this.buttonCrearGrupo_Click);
+            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.buttonCrearGrupoProceso);
             this.groupBox2.Controls.Add(this.comboGrupo);
             this.groupBox2.Controls.Add(this.buttonCrearProceso);
             this.groupBox2.Controls.Add(this.textBoxIdProcesoGrupo);
@@ -87,15 +99,24 @@
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             // 
+            // buttonCrearGrupoProceso
+            // 
+            this.buttonCrearGrupoProceso.Location = new System.Drawing.Point(172, 134);
+            this.buttonCrearGrupoProceso.Name = "buttonCrearGrupoProceso";
+            this.buttonCrearGrupoProceso.Size = new System.Drawing.Size(75, 23);
+            this.buttonCrearGrupoProceso.TabIndex = 16;
+            this.buttonCrearGrupoProceso.Text = "Crear";
+            this.buttonCrearGrupoProceso.UseVisualStyleBackColor = true;
+            this.buttonCrearGrupoProceso.Click += new System.EventHandler(this.buttonCrearGrupoProceso_Click);
+            // 
             // comboGrupo
             // 
-            this.comboGrupo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboGrupo.FormattingEnabled = true;
-            this.comboGrupo.Location = new System.Drawing.Point(149, 150);
+            this.comboGrupo.Location = new System.Drawing.Point(86, 96);
             this.comboGrupo.Name = "comboGrupo";
-            this.comboGrupo.Size = new System.Drawing.Size(104, 21);
+            this.comboGrupo.Size = new System.Drawing.Size(167, 21);
             this.comboGrupo.TabIndex = 15;
-            this.comboGrupo.SelectedIndexChanged += new System.EventHandler(this.comboGrupo_SelectedIndexChanged);
+            this.comboGrupo.Text = "Seleccione";
             // 
             // buttonCrearProceso
             // 
@@ -110,7 +131,7 @@
             // 
             // textBoxIdProcesoGrupo
             // 
-            this.textBoxIdProcesoGrupo.Location = new System.Drawing.Point(149, 78);
+            this.textBoxIdProcesoGrupo.Location = new System.Drawing.Point(149, 55);
             this.textBoxIdProcesoGrupo.Name = "textBoxIdProcesoGrupo";
             this.textBoxIdProcesoGrupo.Size = new System.Drawing.Size(100, 20);
             this.textBoxIdProcesoGrupo.TabIndex = 11;
@@ -131,7 +152,7 @@
             this.labelTipoProceso.BackColor = System.Drawing.Color.Transparent;
             this.labelTipoProceso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             this.labelTipoProceso.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labelTipoProceso.Location = new System.Drawing.Point(1, 157);
+            this.labelTipoProceso.Location = new System.Drawing.Point(6, 96);
             this.labelTipoProceso.Name = "labelTipoProceso";
             this.labelTipoProceso.Size = new System.Drawing.Size(50, 15);
             this.labelTipoProceso.TabIndex = 10;
@@ -143,7 +164,7 @@
             this.labelIdProceso.BackColor = System.Drawing.Color.Transparent;
             this.labelIdProceso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             this.labelIdProceso.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labelIdProceso.Location = new System.Drawing.Point(6, 79);
+            this.labelIdProceso.Location = new System.Drawing.Point(6, 60);
             this.labelIdProceso.Name = "labelIdProceso";
             this.labelIdProceso.Size = new System.Drawing.Size(103, 15);
             this.labelIdProceso.TabIndex = 9;
@@ -160,16 +181,6 @@
             this.labelNombre.Size = new System.Drawing.Size(142, 15);
             this.labelNombre.TabIndex = 8;
             this.labelNombre.Text = "Nombre del Proceso:";
-            // 
-            // buttonCrearGrupo
-            // 
-            this.buttonCrearGrupo.Location = new System.Drawing.Point(127, 68);
-            this.buttonCrearGrupo.Name = "buttonCrearGrupo";
-            this.buttonCrearGrupo.Size = new System.Drawing.Size(75, 23);
-            this.buttonCrearGrupo.TabIndex = 2;
-            this.buttonCrearGrupo.Text = "Crear";
-            this.buttonCrearGrupo.UseVisualStyleBackColor = true;
-            this.buttonCrearGrupo.Click += new System.EventHandler(this.buttonCrearGrupo_Click);
             // 
             // FormGrupo
             // 
@@ -203,5 +214,6 @@
         private System.Windows.Forms.Label labelNombre;
         private System.Windows.Forms.ComboBox comboGrupo;
         private System.Windows.Forms.Button buttonCrearGrupo;
+        private System.Windows.Forms.Button buttonCrearGrupoProceso;
     }
 }

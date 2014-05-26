@@ -86,39 +86,42 @@ namespace Proyecto_Infra
         }
 
         private void buttonCrearProceso_Click(object sender, EventArgs e)
-        {
-            if (textBoxNombreProcesoGrupo.Text == "")
-            {
-                MessageBox.Show("Ingrese un nombre al proceso!");
-            }
-            if (textBoxIdProcesoGrupo.Text == "")
-            {
-                MessageBox.Show("Ingrese un id al grupo!");
-            }
-            if (comboGrupo.SelectedIndex == -1)
-            {
-                MessageBox.Show("Seleccione un grupo en el comboBox");
-            }
-            else
-            {
-                MessageBox.Show("Nombre: "+textBoxNombreProcesoGrupo.Text+"\n"+"ID: "+textBoxIdProcesoGrupo.Text+"\n"+"Grupo: "+comboGrupo.SelectedItem,"Proceso");
-                this.Close();
-            }
+        {       
+                this.Close();        
         }
 
         private void buttonCrearGrupo_Click(object sender, EventArgs e)
         {
-           
-            comboGrupo.Items.Add(textBoxNombreGrupo.Text);
-            MessageBox.Show("se ingresó el grupo: "+textBoxNombreGrupo.Text, "Grupo Creado!");
-            textBoxNombreGrupo.Text = "";
 
+            if (textBoxNombreGrupo.Text == "")
+            {
+                MessageBox.Show("Escriba el nombre del grupo!");
+            }
+            else
+            {
+                comboGrupo.Items.Add(textBoxNombreGrupo.Text);
+                MessageBox.Show("se ingresó el grupo: " + textBoxNombreGrupo.Text, "Grupo Creado!");
+                textBoxNombreGrupo.Text = "";
+            }
         }
 
-        private void comboGrupo_SelectedIndexChanged(object sender, EventArgs e)
+        private void buttonCrearGrupoProceso_Click(object sender, EventArgs e)
         {
+            if (textBoxNombreProcesoGrupo.Text == "" || textBoxIdProcesoGrupo.Text == "" || comboGrupo.SelectedIndex == -1)
+            {
+                MessageBox.Show("Ingrese un nombre y ID para el proceso y Seleccione un grupo en el comboBox");        
+            }
+           
+            else
+            {
+                MessageBox.Show("Nombre: " + textBoxNombreProcesoGrupo.Text + "\n" + "ID: " + textBoxIdProcesoGrupo.Text + "\n" + "Grupo: " + comboGrupo.SelectedItem, "Proceso Creado!");
+                comboGrupo.SelectedIndex = -1;
+                textBoxIdProcesoGrupo.Text = "";
+                textBoxNombreProcesoGrupo.Text = "";
 
+            }
         }
+
 
     }
 }
